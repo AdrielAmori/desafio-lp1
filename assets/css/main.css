@@ -26,3 +26,110 @@
     padding-left: 62px;
 }
 
+.menu-informativo {
+    background-color: #F9F9F9;
+    height: 229px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+#titulo-imagem {
+    padding-bottom: 30px;
+    padding-left: 75px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000;
+}
+
+#paragrafo-imagem {
+    padding-top: 30px;
+    padding-left: 75px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 779px;
+}
+
+#img {
+    width: 510px;
+    height: 605px;
+    background-image: url(../img/escritorio.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.texto-imagem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#formulario {
+    background: #303030;
+    text-align: center;
+    height: 590px;
+}
+
+#titulo-formulario {
+    padding-top: 87px;
+    color: #ffffff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+input {
+    width: 508px;
+    height: 60px;
+    background-color: #EAECE5;
+    margin-top: 42px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    color: #0000004D;
+}
+
+button {
+    background-color: #C07212;
+    width: 286px;
+    height: 54px;
+    margin-top: 70px;
+    margin-bottom: 87px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #9b5807;
+    transform: translateY(-2px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 5px 5px #de7c0456;
+}
